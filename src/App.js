@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <div className='card'>
+
+        <div className="dp_container">
+          <div className='plus dis_flex'>
+            <span>+</span>
+            </div>
+          <span className="threedots">⁝</span>
+        </div>
+
+        <div className='name_container dis_flex'>
+          <h3>Dima Blover</h3>
+          <p>UI/UX Designer</p>
+        </div>
+
+        <div className="follower_container dis_flex">
+          <div className="flxdirection_clm dis_flex">
+            <span>26</span>
+            <span>Shoot</span>
+          </div>
+          <div className="flxdirection_clm dis_flex">
+            <span>94</span>
+            <span>Following</span>
+          </div>
+          <div className="flxdirection_clm dis_flex">
+            <span>139</span>
+            <span>Followers</span>
+          </div>
+        </div>
+
+      </div>
+   
   );
 }
 
